@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { AddCategory, GifGrid } from "./components";
+import GifGrid from "./components/GifGrid";
+import AddCategory from "./components/AddCategory";
 export default function GifExpertApp() {
     const [categories, setCategories] = useState(['Vegeta', 'Naruto']);
     const addCategories = function(newCategory){
